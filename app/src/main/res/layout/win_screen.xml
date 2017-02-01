@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/summary"
+    android:layout_gravity="center"
+    android:weightSum="10"
+    android:layout_width="400dp"
+    android:layout_height="220dp"
+    >
+
+
+    <ImageView
+        android:layout_height="30dp"
+        android:layout_width="30dp"
+        app:srcCompat="@drawable/check"
+        android:id="@+id/bottleCheck"
+        android:layout_above="@+id/coinCheck"
+        android:layout_alignLeft="@+id/coinCheck"
+        android:layout_alignStart="@+id/coinCheck"
+        android:layout_alignRight="@+id/coinCheck"
+        android:layout_alignEnd="@+id/coinCheck"
+        android:layout_marginBottom="5dp" />
+
+    <ImageView
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/check"
+        android:layout_marginRight="137dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="40dp"
+        android:id="@+id/coinCheck"
+        android:layout_width="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/play"
+        android:id="@+id/close"
+        android:layout_width="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/bottleCheck"
+        android:layout_toEndOf="@+id/bottleCheck" />
+</RelativeLayout>

@@ -1,0 +1,32 @@
+package galyanae.gamejam;
+
+/**
+ * Created by RonyBrosh on 1/21/2017.
+ */
+
+public class GameLevel
+{
+    public static final int BLANK = 0;
+    public static final int ROCKS = 1;
+    public static final int COIN = 2;
+    public static final int RUM = 3;
+    public static final int MAIN_TREASURE = 4;
+    public static final int KRACKEN = 5;
+
+    public static final int[] LEVEL_ONE = new int[]{
+            BLANK,BLANK,BLANK,BLANK,MAIN_TREASURE,BLANK,BLANK,BLANK,BLANK,BLANK,
+            BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,
+            BLANK,COIN,BLANK,BLANK,BLANK,KRACKEN,BLANK,BLANK,BLANK,BLANK,
+            BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,ROCKS,
+            BLANK,BLANK,BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,RUM,
+            BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK
+    };
+    public static final int[] LEVEL_TWO = new int[]{
+            BLANK,BLANK,BLANK,BLANK,MAIN_TREASURE,BLANK,BLANK,BLANK,BLANK,BLANK,
+            BLANK,BLANK,ROCKS,BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,
+            BLANK,COIN,BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,BLANK,
+            BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,ROCKS,
+            BLANK,ROCKS,BLANK,BLANK,ROCKS,BLANK,BLANK,BLANK,COIN,RUM,
+            BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK,BLANK
+    };
+}
